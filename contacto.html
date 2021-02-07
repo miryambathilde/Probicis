@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Todo sobre el mundo de las bicis y las mejores rutas para recorrer">
+    <meta name="keywords" content="bicis,rutas,montaña,carretera">
+    <meta name="author" content="Miryam Bathilde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Probicis</title>
+    <link rel="stylesheet" href="css/main.css" media="screen">
+</head>
+<body role="document">
+    <!-- Logo y navegación -->
+    <div class="wrapper">
+    <header class="page-header">
+        <!-- MENU DE NAVEGACIÓN -->
+        <nav role="navigation">
+            <img id="logo" src="/images/logo probicis 2_300x300.png" alt="logo">
+            <ul>
+                <li><a href="index.html" title="Inicio">inicio</a></li> 
+                <li><a href="#" title="Blog">blog</a></li>
+                <li><a href="sobre-nosotros.html" title="Sobre nosotros">sobre nosotros</a></li>
+                <li><a href="contacto.html" title="Contacto">contacto</a></li>
+            </ul>
+            <button class="bt-acceso">acceso</button>
+        </nav>
+    </header>
+    <article class="page-contact-banner" role="article"><!-- texto bienvenida -->
+        <div>
+            <h1>Contacta con nosotros</h1>
+              <p>Descubre nuevas rutas y paisajes de la mano de bicipro. </p>
+                <p>Somos un grupo de apasionados dispuestos a compartir <br> nuestros secretos y conocimientos con todos los amantes de las dos ruedas.</p>
+              <p>¡Te estábamos esperando!</p>
+        </div>
+    </article> 
+    <main role="main">
+            <header class="center">
+                    <h3>Formulario de contacto</h3>
+                        <p>Estamos encantados de tenerte con nosotros</p>
+                </header>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <main role="main">
+        <div class="row">
+            <div class="column">
+                <!-- formulario -->
+                <form action="action.php">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="fname" value="">
+                    <label for="lname">Apellidos</label>
+                    <input type="text" id="lname" name="lname" value="">
+                    <label for="email">Email</label>
+                    <input type="email">
+                    <label for="password">Password</label>
+                    <input type="password">
+                    <!-- desplegable -->
+                    <label for="category">Categoría</label>
+                    <select name="category" id="category">
+                        <option value="xc">XC</option>
+                        <option value="carretera">Carretera</option>
+                        <option value="enduro">Enduro</option>
+                    </select>
+                    <label for="subkect">Asunto</label>
+                    <textarea name="subject" name="subject" placeholder="Te escuchamos" style="height: 200px;"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.9322856106924!2d-5.937018085343326!3d37.296738647292074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12704994943831%3A0xed3c0fd45b8e2516!2sAv.%20de%20Adolfo%20Su%C3%A1rez%2C%2030%2C%2041704%20Dos%20Hermanas%2C%20Sevilla!5e0!3m2!1ses!2ses!4v1604411399678!5m2!1ses!2ses" width="730" height="680" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Política de privacidad y contacto -->
+    <footer class="page-footer center" role="contentinfo">
+        <div class="page-footer-container">
+            <small>Información sobre nuestra <a href="politica-privacidad.html">política de privacidad</a></small><br>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <p>Creado por: <a href="mailto:mbathilde@gmail.com">Miryam Bathilde</a><br>Téfono de contacto: <a href="tel:664405691">664 405 691</a></p><br>
+            <p>Avenida Adolfo Suárez 30, 41704 <br> Dos Hermanas (Sevilla)</p>
+        </div>
+    </footer><!-- Política de privacidad, otro contacto... -->
+    </div>
+</body>
+</html>
